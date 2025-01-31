@@ -1,0 +1,36 @@
+.button {
+  font-weight: theme("fontWeight.bold");
+  padding: theme("spacing.2") theme("spacing.4");
+  border-radius: theme("borderRadius.lg");
+}
+
+.button-primary {
+  background: theme("colors.blue.500");
+  color: theme("colors.white");
+}
+
+.button-secondary {
+  background: theme("colors.gray.500");
+  color: theme("colors.white");
+}
+
+.button-outline {
+  border: theme("borderWidth.DEFAULT") solid theme("colors.gray.500");
+  color: theme("colors.gray.500");
+}
+
+.button-danger {
+  color: theme("colors.white");
+  background: theme("colors.red.500");
+}
+
+.button-success {
+  color: theme("colors.white");
+  background: theme("colors.green.500");
+}
+
+.button-contained {
+  background: theme("colors.gray.500");
+  color: theme("colors.white");
+  border: theme("borderWidth.DEFAULT") solid theme("colors.gray.500");
+}

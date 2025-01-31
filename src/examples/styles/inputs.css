@@ -1,0 +1,38 @@
+.input {
+  padding: theme("spacing.2") theme("spacing.4");
+  border-radius: theme("borderRadius.DEFAULT");
+  outline: none;
+  width: theme("width.full");
+  border: theme("borderWidth.DEFAULT") solid theme("colors.gray.500");
+}
+
+.input-primary {
+  background: theme("colors.blue.500");
+  color: theme("colors.white");
+}
+
+.input-secondary {
+  background: theme("colors.gray.500");
+  color: theme("colors.white");
+}
+
+.input-outline {
+  border: theme("borderWidth.DEFAULT") solid theme("colors.gray.500");
+  color: theme("colors.gray.500");
+}
+
+.input-danger {
+  color: theme("colors.white");
+  background: theme("colors.red.500");
+}
+
+.input-success {
+  color: theme("colors.white");
+  background: theme("colors.green.500");
+}
+
+.input-contained {
+  background: theme("colors.gray.500");
+  color: theme("colors.white");
+  border: theme("borderWidth.DEFAULT") solid theme("colors.gray.500");
+}
