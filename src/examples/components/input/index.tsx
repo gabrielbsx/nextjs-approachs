@@ -1,5 +1,5 @@
 import { InputHTMLAttributes } from "react";
-import { Variant, Variants, VariantType } from "../types/variants.type";
+import { Variant, Variants, VariantType } from "../../types/variants.type";
 
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   variant?: Variant;
