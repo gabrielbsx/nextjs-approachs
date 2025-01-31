@@ -3,8 +3,9 @@ export type Variant =
   | "secondary"
   | "outline"
   | "default"
-  | "destructive"
-  | "contained";
+  | "contained"
+  | "danger"
+  | "success";
 
 export type Variants = Record<Variant, string>;
 
@@ -13,6 +14,7 @@ export const VariantType: Record<Uppercase<Variant>, Variant> = {
   SECONDARY: "secondary",
   OUTLINE: "outline",
   DEFAULT: "default",
-  DESTRUCTIVE: "destructive",
   CONTAINED: "contained",
+  DANGER: "danger",
+  SUCCESS: "success",
 };

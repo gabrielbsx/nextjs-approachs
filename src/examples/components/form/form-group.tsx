@@ -1,10 +1,18 @@
 import { HTMLAttributes } from "react";
+import { twMerge } from "tailwind-merge";
 
 type FormGroupProps = HTMLAttributes<HTMLDivElement>;
 
-export const FormGroup = ({ children, ...props }: FormGroupProps) => {
+export const FormGroup = ({
+  className,
+  children,
+  ...props
+}: FormGroupProps) => {
   return (
-    <div className="flex flex-col gap-2" {...props}>
+    <div
+      className={twMerge("flex flex-col items-start gap-4", className)}
+      {...props}
+    >
       {children}
     </div>
   );
