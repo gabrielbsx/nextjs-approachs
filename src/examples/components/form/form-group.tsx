@@ -10,7 +10,7 @@ export const FormGroup = ({
 }: FormGroupProps) => {
   return (
     <div
-      className={twMerge("flex flex-col items-start gap-4", className)}
+      className={twMerge("flex flex-col items-start gap-2", className)}
       {...props}
     >
       {children}

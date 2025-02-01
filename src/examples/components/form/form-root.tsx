@@ -5,7 +5,7 @@ type FormRootProps = HTMLAttributes<HTMLFormElement>;
 
 export const FormRoot = ({ className, children, ...props }: FormRootProps) => {
   return (
-    <form className={clsx("gap-2", className)} {...props}>
+    <form className={clsx("flex flex-col gap-4", className)} {...props}>
       {children}
     </form>
   );
